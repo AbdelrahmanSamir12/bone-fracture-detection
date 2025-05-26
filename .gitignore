@@ -1,5 +1,5 @@
 # Data
-/data/
+#/data/
 
 # Mac OS-specific storage files
 .DS_Store
@@ -185,3 +185,4 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 /distal-humerus-fracture-1_jpg.rf.831cb137cfcbde1079f86abd5f5f2867.jpg
+/data

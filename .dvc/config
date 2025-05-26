@@ -2,3 +2,4 @@
     remote = origin
 ['remote "origin"']
     url = https://dagshub.com/abdelrahman.samir/bone-fracture-detection.dvc
+    auth = basic
