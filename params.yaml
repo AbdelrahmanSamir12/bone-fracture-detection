@@ -1,0 +1,6 @@
+raw_data_path: ./data/raw
+dataset_name: pkdarabi/bone-fracture-detection-computer-vision-project
+output_dir: ./data/processed
+train_path: ./data/raw/BoneFractureYolo8/train
+val_path: ./data/raw/BoneFractureYolo8/valid
+test_path: ./data/raw/BoneFractureYolo8/test
