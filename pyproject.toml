@@ -18,6 +18,7 @@ classifiers = [
 dependencies = [
     "dvc>=3.59.2",
     "kaggle>=1.7.4.5",
+    "mlflow>=2.22.0",
     "opencv-python>=4.11.0.86",
     "pip",
     "python-dotenv",

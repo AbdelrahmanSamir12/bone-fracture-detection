@@ -4,3 +4,19 @@ output_dir: ./data/processed
 train_path: ./data/raw/BoneFractureYolo8/train
 val_path: ./data/raw/BoneFractureYolo8/valid
 test_path: ./data/raw/BoneFractureYolo8/test
+
+defaults:
+  - _self_
+
+mlflow:
+  tracking_uri: "https://dagshub.com/abdelrahman.samir/bone-fracture-detection.mlflow"
+  experiment_name: "bonefracture_yolov8s"
+
+train:
+  model: "yolov8s.pt"
+  data: "./bone-fracture-detection/data/data.yaml"
+  augment: true
+  imgsz: 640
+  epochs: 50
+  batch: 16
+  name: "bonefracture_yolov8s"
