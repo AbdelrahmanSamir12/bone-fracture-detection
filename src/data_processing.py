@@ -46,7 +46,8 @@ def process_dataset(cfg):
                 processed_img_path = os.path.join(processed_img_dir, img_file)
                 resized_img.save(processed_img_path)
                 shutil.copy2(label_path, os.path.join(processed_label_dir, label_file))
-                print("Images Processed Successfully...")
+                
+    print("Images Processed Successfully...")
 
 if __name__ == "__main__":
     params = dvc.api.params_show("../params.yaml")
