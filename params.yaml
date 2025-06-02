@@ -17,6 +17,6 @@ train:
   data: "./bone-fracture-detection/data/data.yaml"
   augment: true
   imgsz: 640
-  epochs: 1
+  epochs: 50
   batch: 16
   name: "bonefracture_yolov8s"
